@@ -1,11 +1,11 @@
-About chempy
-============
+About chempy-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chempy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bjodah/chempy
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chempy-feedstock/blob/main/LICENSE.txt)
 
 Summary: A package useful for chemistry written in Python.
 
