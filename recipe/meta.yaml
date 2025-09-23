@@ -1,5 +1,5 @@
 {% set name = "chempy" %}
-{% set version = "0.10.0" %}
+{% set version = "0.10.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e985dce751219b51ed56f1a3f5d6008f22f40bd73c79b966a5cad11164ad4c34
+  sha256: 7112a2fe6cfe49730870de19e6061ff7f174a7d626a64244ab0505afa591cba0
 
 build:
   number: 0
