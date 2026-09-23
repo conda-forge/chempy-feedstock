@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: chempy
-  version: 0.10.1
+  version: "0.10.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 7112a2fe6cfe49730870de19e6061ff7f174a7d626a64244ab0505afa591cba0
+  sha256: 999eef252386732e2b908192faa2d590eb0fa11576fcb52556e0fbe7d1f0ca12
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
